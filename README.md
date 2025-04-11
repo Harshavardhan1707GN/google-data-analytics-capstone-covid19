@@ -51,7 +51,7 @@ The goal is to practice data cleaning, exploration, and visualization using SQL 
    WHERE country_name = 'India'
    AND date BETWEEN '2021-01-01' AND '2021-06-30'
    ORDER BY date;
-3.**Daily New Deaths in USA (Last 30 Days of 2021)**
+ 3.**Daily New Deaths in USA (Last 30 Days of 2021)**
   ```sql
    SELECT date, new_deceased
    FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
@@ -59,7 +59,7 @@ The goal is to practice data cleaning, exploration, and visualization using SQL 
    AND date BETWEEN '2021-12-01' AND '2021-12-31'
    ORDER BY date;
 
-4.**Top 10 Countries with Highest Vaccination Rate (2021)**
+ 4.**Top 10 Countries with Highest Vaccination Rate (2021)**
     ```sql
    SELECT country_name, MAX(cumulative_persons_vaccinated) AS total_vaccinated
    FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
