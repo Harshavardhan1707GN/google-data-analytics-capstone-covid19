@@ -36,6 +36,7 @@ The goal is to practice data cleaning, exploration, and visualization using SQL 
 ## 📌 SQL Questions Explored
 
 -- 1. Top 10 Countries with Highest Confirmed Cases
+
 SELECT 
   country_name, 
   MAX(cumulative_confirmed) AS total_cases
@@ -51,6 +52,7 @@ LIMIT 10;
 
 
 -- 2. Trend of New Cases in India (Jan–Jun 2021)
+
 SELECT 
   date, 
   new_confirmed
@@ -64,6 +66,7 @@ ORDER BY
 
 
 -- 3. Daily New Deaths in USA (Dec 2021)
+
 SELECT 
   date, 
   new_deceased
@@ -77,6 +80,7 @@ ORDER BY
 
 
 -- 4. Top 10 Countries by Total Vaccinations (as of 2021 end)
+
 SELECT 
   country_name, 
   MAX(cumulative_persons_vaccinated) AS total_vaccinated
