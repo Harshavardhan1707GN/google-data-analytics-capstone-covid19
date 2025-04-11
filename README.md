@@ -34,6 +34,27 @@ The goal is to practice data cleaning, exploration, and visualization using SQL 
 
 ---
 
+## 📈 Key Insights
+
+- **India** saw a major spike in COVID-19 cases between Jan–June 2021.
+- **USA** recorded the highest number of new daily deaths in December 2021.
+- **Vaccination rates** were highest in countries like the United States and India by the end of 2021.
+- Countries with high case numbers did not always have the highest fatality rates, showing varying healthcare responses.
+
+---
+
+## 🛠️ How to Reproduce This Project
+
+1. Open [Google BigQuery](https://console.cloud.google.com/bigquery)
+2. Navigate to:  
+   `bigquery-public-data.covid19_open_data.covid19_open_data`
+3. Copy and run the SQL queries listed above
+4. Export the results to Google Sheets or use a CSV for visualization
+5. Create visuals using tools like Google Sheets, Python (Matplotlib), or Excel
+6. Document insights based on the visualizations
+
+---
+
 ## 📌 SQL Questions Explored
 
 1. **Top 10 Countries with Highest Confirmed Cases**
@@ -62,7 +83,6 @@ The goal is to practice data cleaning, exploration, and visualization using SQL 
    LIMIT 10;
 
 
-   
 
  
 
